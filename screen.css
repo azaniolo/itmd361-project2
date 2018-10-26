@@ -19,7 +19,7 @@ ol, ul {
 }
 
 ol, ul, li {
-  padding-bottom: : 0.6666666667em; /* 12px / 18px = 0.6666666667em */
+  padding-bottom: 0.6666666667em; /* 12px / 18px = 0.6666666667em */
 }
 
 li ol,
@@ -29,4 +29,15 @@ li ul {
 
 img {
   width: 100%;
+}
+
+/* About me specific */
+
+#about_me {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.hobby {
+  padding: 0.6666666667em; /* 12px / 18px = 0.6666666667em */
 }
