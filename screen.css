@@ -23,7 +23,9 @@ h4 {
   padding-bottom: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
 }
 
-
+p {
+  padding-left: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
+}
 
 ol, ul {
   /*color: red;*/
