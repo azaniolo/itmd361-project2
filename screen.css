@@ -14,8 +14,20 @@ html {
   font-family: Verdana;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  padding-left: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
+  padding-bottom: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
+}
+
+
+
 ol, ul {
-  color: red;
+  /*color: red;*/
+  padding-left: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
 }
 
 ol, ul, li {
@@ -40,4 +52,32 @@ img {
 
 .hobby {
   padding: 0.6666666667em; /* 12px / 18px = 0.6666666667em */
+}
+
+/* My hedgehog specific */
+
+.harticle {
+  padding-bottom: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
+}
+
+/* Resume specific */
+
+#contact-info {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+#education,
+#work,
+#skills {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+}
+
+.resume-header {
+  font-size: 1.2222222222em; /* 22px / 18px = 1.2222222222em modular scale 1.5*/
+  padding-left: 0em;
+  align-self: center;
 }
