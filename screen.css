@@ -50,16 +50,18 @@ img {
 /* Navigation bar CSS */
 
 .navbar {
-  padding: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
   display: flex;
+  padding: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
   flex-flow: row nowrap;
   align-content: center;
   width: available;
+  height: auto;
 }
 
 .navbar > li {
   background-color: #85144b; /* Maroon */
-  border-style: solid;
+  border: solid;
+  border-width: thin;
   border-color: #EEEEEE;
   flex-grow: 1;
   text-align: center;
@@ -67,6 +69,7 @@ img {
 
 li > a {
   font-size: 0.6666666667em; /* 12px / 18px = 0.6666666667em */
+  line-height: 1.0833333333em; /* 13px / 12px = 1em */
   text-decoration: none;
   color: #EEEEEE; /* Whiteish */
 }
@@ -88,12 +91,8 @@ li > a {
 
 #contact-info {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-#contact-info > h1 {
-  padding-left: 0em;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 #education,
@@ -106,6 +105,5 @@ li > a {
 
 .resume-header {
   font-size: 1.2222222222em; /* 22px / 18px = 1.2222222222em modular scale 1.5*/
-  padding-left: 0em;
   align-self: center;
 }
