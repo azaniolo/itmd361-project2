@@ -90,9 +90,7 @@ li > a {
 /* Resume specific */
 
 #contact-info {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  text-align: center;
   width: available;
 }
 
@@ -102,19 +100,8 @@ li > a {
   font-size: 1em; /* 18px / 18px */
 }
 
-#education,
-#work,
-#skills {
-  display: flex;
-  flex-flow: column wrap;
-  flex-grow: 1;
-  align-content: flex-start;
-  width: 100%;
-}
-
 .resume-header {
   font-size: 1.2222222222em; /* 22px / 18px = 1.2222222222em modular scale 1.5*/
-  align-self: center;
   text-align: center;
 }
 
@@ -136,7 +123,6 @@ li > a {
     padding-left: 0;
     padding-right: 0;
   }
-
 }
 
 @media screen and (min-width: 800px) {
