@@ -21,16 +21,16 @@ h2,
 h3,
 h4 {
   font-weight: bold;
-  padding: 0em 1.3333333333em 1.3333333333em; /* 24px / 18px = 1.3333333333em */
+  padding: 0 1.3333333333em 1.3333333333em; /* 24px / 18px = 1.3333333333em */
 }
 
 p {
-  padding: 0em 1.3333333333em 1.3333333333em; /* 24px / 18px = 1.3333333333em */
+  padding: 0 1.3333333333em 1.3333333333em; /* 24px / 18px = 1.3333333333em */
 }
 
 ol, ul {
   /*color: red;*/
-  padding: 0em 1.3333333333em; /* 24px / 18px = 1.3333333333em */
+  padding: 0 1.3333333333em; /* 24px / 18px = 1.3333333333em */
 }
 
 ol, ul, li {
@@ -111,7 +111,7 @@ li > a {
 /* Media queries */
 
 @media screen and (min-width: 650px) {
-  html{
+  html {
     padding: 5%;
   }
 
@@ -123,8 +123,8 @@ li > a {
   h3,
   h4,
   p {
-    padding-left: 0em;
-    padding-right: 0em;
+    padding-left: 0;
+    padding-right: 0;
   }
 
 }
