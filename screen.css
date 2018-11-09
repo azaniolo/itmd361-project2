@@ -107,3 +107,30 @@ li > a {
   font-size: 1.2222222222em; /* 22px / 18px = 1.2222222222em modular scale 1.5*/
   align-self: center;
 }
+
+/* Media queries */
+
+@media screen and (min-width: 650px) {
+  html{
+    padding: 5%;
+  }
+
+  li,
+  ul,
+  ol,
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  .navbar > li {
+    flex: 1 1 0;
+  }
+}
