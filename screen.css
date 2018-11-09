@@ -88,7 +88,12 @@ li > a {
 
 #contact-info {
   display: flex;
-  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#contact-info > h1 {
+  padding-left: 0em;
 }
 
 #education,
