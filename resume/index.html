@@ -7,8 +7,18 @@
   <link rel="stylesheet" href="../screen.css" />
 </head>
 <body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="/">Home</a></li>
+        <li><a href="../about-me/">About Me</a></li>
+        <li class="current-page"><a href="../resume/">Resume</a></li>
+        <li><a href="../my-hedgie/">Chestnut the Hedgehog</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <section id="contact-info">
+    <article id="contact-info">
       <h1>Anthony Zaniolo</h1>
       <address>
         <ul id="address">
@@ -18,7 +28,7 @@
           <li><a href="mailto:azaniolo@hawk.iit.edu">azaniolo@hawk.iit.edu</a></li>
         </ul>
       </address>
-    </section>
+    </article>
 
     <section id="education">
       <h2 class="resume-header">Education</h2>
@@ -34,9 +44,9 @@
       </ul>
     </section>
 
-    <section id="work">
+    <article id="work">
       <h2 class="resume-header">Work Experience</h2>
-      <article class="work-exp">
+      <section class="work-exp">
         <h3 class="resume-sheader">System Administrator (Consultant)</h3>
         <ul class="resume-list">
           <li class="workplace">Allston Trading - Chicago, IL</li>
@@ -48,9 +58,9 @@
             </ul>
           </li>
         </ul>
-      </article>
+      </section>
 
-      <article class="work-exp">
+      <section class="work-exp">
         <h3 class="resume-sheader">System Administrator (Intern)</h3>
         <ul class="resume-list">
           <li class="workplace">Allston Trading - Chicago, IL</li>
@@ -63,9 +73,9 @@
             </ul>
           </li>
         </ul>
-      </article>
+      </section>
 
-      <article class="work-exp">
+      <section class="work-exp">
         <h3 class="resume-sheader">System Administrator (Intern)</h3>
         <ul class="resume-list">
           <li class="workplace">Allston Trading - Chicago, IL</li>
@@ -77,9 +87,9 @@
             </ul>
           </li>
         </ul>
-      </article>
+      </section>
 
-      <article class="work-exp">
+      <section class="work-exp">
         <h3 class="resume-sheader">System Administrator (Intern)</h3>
         <ul class="resume-list">
           <li class="workplace">Allston Trading - Chicago, IL</li>
@@ -92,10 +102,10 @@
             </ul>
           </li>
         </ul>
-      </article>
-    </section>
+      </section>
+    </article>
 
-    <section id="skills">
+    <article id="skills">
       <h2 class="resume-header">Skills</h2>
       <ul class="resume-list">
         <li>Proficient with Java, Python, SQL, and BASH</li>
@@ -103,7 +113,7 @@
         <li>Experience using and maintaining Linux (Centos, Fedora, Ubuntu), Mac, and Windows systems</li>
         <li>Microsoft Office</li>
       </ul>
-    </section>
+    </article>
 
   </main>
 </body>
