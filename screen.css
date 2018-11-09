@@ -12,6 +12,8 @@ html {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
   font-family: Verdana;
+  background: #f0ead6; /* Eggshell */
+  color: #222222; /* Blackish */
 }
 
 h1,
@@ -24,12 +26,12 @@ h4 {
 }
 
 p {
-  padding-left: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
+  padding: 0em 1.3333333333em; /* 24px / 18px = 1.3333333333em */
 }
 
 ol, ul {
   /*color: red;*/
-  padding-left: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
+  padding: 0em 1.3333333333em; /* 24px / 18px = 1.3333333333em */
 }
 
 ol, ul, li {
@@ -42,18 +44,38 @@ li ul {
 }
 
 img {
-  width: 100%;
+  display: block;
+  max-width: 100%;
+}
+
+/* Navigation bar CSS */
+
+.navbar {
+  padding: 1.3333333333em; /* 24px / 18px = 1.3333333333em */
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  width: available;
+}
+
+.navbar > li {
+  background-color: #85144b; /* Maroon */
+  border-style: solid;
+  border-color: #EEEEEE;
+  flex-grow: 1;
+  text-align: center;
+}
+
+li > a {
+  font-size: 0.6666666667em; /* 12px / 18px = 0.6666666667em */
+  text-decoration: none;
+  color: #EEEEEE; /* Whiteish */
 }
 
 /* About me specific */
 
-#about_me {
-  display: flex;
-  flex-flow: column nowrap;
-}
-
 .hobby {
-  padding: 0.6666666667em; /* 12px / 18px = 0.6666666667em */
+  padding: 0.6666666667em 0em; /* 12px / 18px = 0.6666666667em */
 }
 
 /* My hedgehog specific */
@@ -66,7 +88,6 @@ img {
 
 #contact-info {
   display: flex;
-  flex-flow: column wrap;
   align-content: center;
 }
 
